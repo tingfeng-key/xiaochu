@@ -1,0 +1,58 @@
+{
+	"groups": [
+		{
+			"keys": "bomb_json,bomb_png",
+			"name": "bomb"
+		},
+		{
+			"keys": "game_over_png,game_over_am_png,game_over_am_json",
+			"name": "over"
+		},
+		{
+			"keys": "gameHeadBtn_png,startBtn_png,continuationBtn_png",
+			"name": "menu"
+		}
+	],
+	"resources": [
+		{
+			"url": "skin/common/bomb.json",
+			"type": "json",
+			"name": "bomb_json"
+		},
+		{
+			"url": "skin/common/bomb.png",
+			"type": "image",
+			"name": "bomb_png"
+		},
+		{
+			"url": "skin/common/game_over.png",
+			"type": "image",
+			"name": "game_over_png"
+		},
+		{
+			"url": "skin/common/game_over_am.png",
+			"type": "image",
+			"name": "game_over_am_png"
+		},
+		{
+			"url": "skin/common/game_over_am.json",
+			"type": "json",
+			"name": "game_over_am_json"
+		},
+		{
+			"url": "skin/common/gameHeadBtn.png",
+			"type": "image",
+			"name": "gameHeadBtn_png"
+		},
+		{
+			"url": "skin/common/startBtn.png",
+			"type": "image",
+			"name": "startBtn_png"
+		},
+		{
+			"url": "skin/common/continuationBtn.png",
+			"type": "image",
+			"name": "continuationBtn_png"
+		}
+	]
+}

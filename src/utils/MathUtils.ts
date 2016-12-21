@@ -1,0 +1,63 @@
+/**
+ *
+ * 计算工具类
+ *
+ */
+class MathUtils {
+	/**
+     * 弧度制转换为角度值
+     * @param radian 弧度制
+     * @returns {number}
+     */
+    public static getAngle(radian: number): number {
+        return 180 * radian / Math.PI;
+    }
+
+    /**
+     * 角度值转换为弧度制
+     * @param angle
+     */
+    public static getRadian(angle: number): number {
+        return Math.PI = angle / 180 * Math.PI;
+    }
+
+    /**
+     * 获取两点间弧度
+     * @param p1X
+     * @param p1Y
+     * @param p2X
+     * @param p2Y
+     * @returns {number}
+     */
+    public static getRadian2(p1X: number,p1Y: number,p2X: number,p2Y: number): number {
+        var xdis: number = p2X - p1X;
+        var ydis: number = p2Y - p1Y;
+        return Math.atan2(ydis,xdis);
+    }
+
+    /**
+     * 获取两点间距离
+     * @param p1X
+     * @param p1Y
+     * @param p2X
+     * @param p2Y
+     * @returns {number}
+     */
+    public static getDistance(p1X: number,p1Y: number,p2X: number,p2Y: number): number {
+        var disX: number = p2X - p1X;
+        var disY: number = p2Y - p1Y;
+        var disQ: number = disX * disX + disY * disY;
+        return Math.sqrt(disQ);
+    }
+
+    /**
+     * 获取幂
+     */
+    public static log(a: number, b: number): number{
+        var v = 0;
+        while((b = Math.floor(b / a)) > 0){
+            v += 1;
+        }
+        return v;
+    }
+}

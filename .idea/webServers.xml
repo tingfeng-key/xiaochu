@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b5c595a4-2d82-4ca0-8801-f18ee194dbca" name="58.215.179.160" url="http://58.215.179.160">
+        <fileTransfer host="58.215.179.160" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d85ddbae-baba-4977-96b0-0c0d804f4e74" name="www.fz222.com" url="http://www.fz222.com">
+        <fileTransfer host="www.fz222.com" port="22" rootFolder="/opt/lampp/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
