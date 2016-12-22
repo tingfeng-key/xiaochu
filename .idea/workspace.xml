@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce510ce-0b8b-4706-a7e4-e77f13ca0521" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/skin/effect_2/dx.tmc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/skin/effect_2/lx.tmc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/skin/effect_2/yx.tmc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/skin/effect_2/zfx.tmc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/skin/grid_1/gem_bg_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/oroPlatform.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_1/lx.png" afterPath="$PROJECT_DIR$/resource/skin/effect_1/lx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_1/qs.png" afterPath="$PROJECT_DIR$/resource/skin/effect_1/qs.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_1/yx.png" afterPath="$PROJECT_DIR$/resource/skin/effect_1/yx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/dx.png" afterPath="$PROJECT_DIR$/resource/skin/effect_2/dx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/lx.png" afterPath="$PROJECT_DIR$/resource/skin/effect_2/lx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/yx.png" afterPath="$PROJECT_DIR$/resource/skin/effect_2/yx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/zfx.png" afterPath="$PROJECT_DIR$/resource/skin/effect_2/zfx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/grid_1/gem_bg.png" afterPath="$PROJECT_DIR$/resource/skin/grid_1/gem_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/grid_2/baoxiang.png" afterPath="$PROJECT_DIR$/resource/skin/grid_2/baoxiang.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/grid_2/baoxiang_can.png" afterPath="$PROJECT_DIR$/resource/skin/grid_2/baoxiang_can.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/grid_2/baoxianged.png" afterPath="$PROJECT_DIR$/resource/skin/grid_2/baoxianged.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/game/Config.js" afterPath="$PROJECT_DIR$/bin-debug/game/Config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/game/GameManage.js" afterPath="$PROJECT_DIR$/bin-debug/game/GameManage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/game/Reward.js" afterPath="$PROJECT_DIR$/bin-debug/game/Reward.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/game/Score.js" afterPath="$PROJECT_DIR$/bin-debug/game/Score.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/gird/Tile.js" afterPath="$PROJECT_DIR$/bin-debug/gird/Tile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_1/lx.json" afterPath="$PROJECT_DIR$/resource/skin/effect_1/lx.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_1/qs.json" afterPath="$PROJECT_DIR$/resource/skin/effect_1/qs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_1/yx.json" afterPath="$PROJECT_DIR$/resource/skin/effect_1/yx.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/dx.json" afterPath="$PROJECT_DIR$/resource/skin/effect_2/dx.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/lx.json" afterPath="$PROJECT_DIR$/resource/skin/effect_2/lx.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/qs.json" afterPath="$PROJECT_DIR$/resource/skin/effect_2/qs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/yx.json" afterPath="$PROJECT_DIR$/resource/skin/effect_2/yx.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/skin/effect_2/zfx.json" afterPath="$PROJECT_DIR$/resource/skin/effect_2/zfx.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/Config.ts" afterPath="$PROJECT_DIR$/src/game/Config.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/GameManage.ts" afterPath="$PROJECT_DIR$/src/game/GameManage.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/Reward.ts" afterPath="$PROJECT_DIR$/src/game/Reward.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/Score.ts" afterPath="$PROJECT_DIR$/src/game/Score.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gird/Tile.ts" afterPath="$PROJECT_DIR$/src/gird/Tile.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -312,38 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="xiaochu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaochu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaochu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaochu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaochu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -783,15 +716,23 @@
       <workItem from="1482109945277" duration="23816000" />
       <workItem from="1482199836742" duration="21319000" />
       <workItem from="1482283443445" duration="7319000" />
-      <workItem from="1482369439521" duration="6177000" />
+      <workItem from="1482369439521" duration="6505000" />
     </task>
+    <task id="LOCAL-00001" summary="完成">
+      <created>1482396594456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1482396594456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78624000" />
+    <option name="totallyTimeSpent" value="78952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -831,6 +772,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,6 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="80" column="50" lean-forward="false" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1413,6 +1359,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="80" column="50" lean-forward="false" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
