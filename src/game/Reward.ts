@@ -53,7 +53,7 @@ class Reward {
         label.x = 5 + (item * 120);
         label.width = 120;
         label.height = 70;
-        label.textColor = 0xFFFFFF;
+        label.textColor = Config.interval.getRewardColor();
         label.textAlign = "center";
         sprite.width = 120;
         sprite.addChild(rewardBit);

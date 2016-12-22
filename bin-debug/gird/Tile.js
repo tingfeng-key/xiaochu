@@ -6,7 +6,7 @@ var Tile = (function (_super) {
     __extends(Tile, _super);
     function Tile() {
         _super.call(this);
-        this._durationLastTime = 0; //上次效果时间
+        this._durationLastTime = 100; //上次效果时间
         this._issetEffect = false; //是否存在特效
         this._Config = Config.interval;
         this._hor = this._Config.hor;
@@ -283,7 +283,7 @@ var Tile = (function (_super) {
             this.removeEffects();
             GameManage.interval.update();
         }
-        this.unSelect();
+        //this.unSelect();
     };
     /**
      * 大屏幕清除
@@ -295,7 +295,7 @@ var Tile = (function (_super) {
             Tile.interval.remove();
             GameManage.interval.update(true, this._durationLastTime);
         }
-        this.unSelect();
+        //this.unSelect();
     };
     /**
      * 移除选中的方块
@@ -529,7 +529,9 @@ var Tile = (function (_super) {
         //更新分数
         Score.interval.score = Scorelength;
         //移除的数据归零（默认）
-        length = this._removeTile.length; //重新赋值
+        console.log(this._selectArr.length);
+        length = this._selectArr.length; //重新赋值
+        console.log(length, this._selectArr.length);
         this._removeTile = [];
         //如果选中的长度小于最小效果值，则直接返回
         if (length < Config.MinEffect)

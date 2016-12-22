@@ -13,7 +13,7 @@ class Config {
         this._grade = 0.5;
         this._hor = 7;
         this._ver = 8;
-        this._skin = 2;
+        this._skin = 1;
         this._bombMaxRound = 5;
         this._reward = [
             {
@@ -169,6 +169,42 @@ class Config {
      */
     public get getReward(): any {
         return this._reward;
+    }
+
+    /**
+     * 分数颜色
+     * @returns {any}
+     */
+    public getScoreColor() {
+        let color;
+        switch(this._skin){
+            case 1:
+                color = 0xFFFFFF;
+                break;
+            case 2:
+                color = 0x0000FF;
+                break;
+            default:
+                color = 0xFFFFFF;
+                break;
+        }
+        return color;
+    }
+
+    public getRewardColor() {
+        let color;
+        switch(this._skin){
+            case 1:
+                color = 0xFFFFFF;
+                break;
+            case 2:
+                color = 0x0000FF;
+                break;
+            default:
+                color = 0xFFFFFF;
+                break;
+        }
+        return color;
     }
 
     /**

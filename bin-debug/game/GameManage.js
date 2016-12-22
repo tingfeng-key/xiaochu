@@ -68,6 +68,7 @@ var GameManage = (function (_super) {
             else {
                 _this.status = GameStatus.Start;
             }
+            Tile.interval.unSelect();
         }, this);
     };
     /**

@@ -10,7 +10,7 @@ var Config = (function () {
         this._grade = 0.5;
         this._hor = 7;
         this._ver = 8;
-        this._skin = 2;
+        this._skin = 1;
         this._bombMaxRound = 5;
         this._reward = [
             {
@@ -190,6 +190,40 @@ var Config = (function () {
             return this._reward;
         }
     );
+    /**
+     * 分数颜色
+     * @returns {any}
+     */
+    p.getScoreColor = function () {
+        var color;
+        switch (this._skin) {
+            case 1:
+                color = 0xFFFFFF;
+                break;
+            case 2:
+                color = 0x0000FF;
+                break;
+            default:
+                color = 0xFFFFFF;
+                break;
+        }
+        return color;
+    };
+    p.getRewardColor = function () {
+        var color;
+        switch (this._skin) {
+            case 1:
+                color = 0xFFFFFF;
+                break;
+            case 2:
+                color = 0x0000FF;
+                break;
+            default:
+                color = 0xFFFFFF;
+                break;
+        }
+        return color;
+    };
     d(Config, "interval"
         ,function () {
             return (this._interval || (this._interval = new Config));

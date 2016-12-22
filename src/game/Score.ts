@@ -25,7 +25,7 @@ class Score extends egret.DisplayObjectContainer {
         //设置字体
         this._scoreTF.fontFamily = "Arial";
         //设置文本颜色
-        this._scoreTF.textColor = 0xFFFFFF;
+        this._scoreTF.textColor = Config.interval.getScoreColor();
         //设置字号
         this._scoreTF.size = 40;
         this._scoreTF.textAlign = "center";

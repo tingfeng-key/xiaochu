@@ -11,7 +11,7 @@ class Tile extends egret.Sprite {
     private _removeTile: Array<TileBitmap>;
     private _signTile: Array<TileBitmap>;
     private _durationTime: number;//效果时间
-    private _durationLastTime: number = 0;//上次效果时间
+    private _durationLastTime: number = 100;//上次效果时间
     private _issetEffect: boolean = false;//是否存在特效
     private _Config: Config;
     public constructor(){
@@ -305,7 +305,7 @@ class Tile extends egret.Sprite {
             this.removeEffects();
             GameManage.interval.update();
         }
-        this.unSelect();
+        //this.unSelect();
     }
 
     /**
@@ -318,13 +318,13 @@ class Tile extends egret.Sprite {
             Tile.interval.remove();
             GameManage.interval.update(true, this._durationLastTime);
         }
-        this.unSelect();
+        //this.unSelect();
     }
 
     /**
      * 移除选中的方块
      */
-    private unSelect(){
+    public unSelect(){
         for (let i = 0; i < this._selectArr.length; i++) {
             this._selectArr[i].unselect();
             this._selectArr[i]._sign = false;
@@ -555,7 +555,9 @@ class Tile extends egret.Sprite {
         //更新分数
         Score.interval.score = Scorelength;
         //移除的数据归零（默认）
-        length = this._removeTile.length;//重新赋值
+        console.log(this._selectArr.length);
+        length = this._selectArr.length;//重新赋值
+        console.log(length,this._selectArr.length);
         this._removeTile = [];
         //如果选中的长度小于最小效果值，则直接返回
         if(length < Config.MinEffect) return;

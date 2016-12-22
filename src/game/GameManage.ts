@@ -75,6 +75,7 @@ class GameManage extends egret.DisplayObjectContainer {
             }else{
                 this.status = GameStatus.Start;
             }
+            Tile.interval.unSelect()
         }, this);
     }
 
