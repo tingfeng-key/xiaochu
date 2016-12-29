@@ -5,19 +5,19 @@
 class LoadRes extends egret.Sprite {
     public width = 0;
     public height = 20;
+    private _gGCMap: GetGameConfig;
     private _resGroupCountInit = 1;
-    private _reGroupCountmax = 5;
+    private _reGroupCountmax = 6;
 
     public constructor() {
         super();
+        this.getGameConfig();
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onResCommon, this);
         RES.loadConfig("resource/common.res.json", "resource/");
     }
 
     private onResCommon(event: RES.ResourceEvent): void {
         RES.removeEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onResCommon, this);
-        RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
-        RES.loadConfig("resource/skin_"+ Config.interval.skin +".res.json", "resource/");
     }
     private onConfigComplete(event:RES.ResourceEvent):void {
         RES.removeEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
@@ -51,12 +51,12 @@ class LoadRes extends egret.Sprite {
      * 资源加载完成
      */
     public onResourceComplate() {
-        if(this._resGroupCountInit >= this._reGroupCountmax){
+        this._resGroupCountInit++;
+        if(this._resGroupCountInit > this._reGroupCountmax){
             var complateEvent = new SceneEvent(SceneEvent.resourceComplate);
             this.dispatchEvent(complateEvent);
             return ;
         }
-        this._resGroupCountInit++;
     }
 
     /**
@@ -79,6 +79,15 @@ class LoadRes extends egret.Sprite {
         this.loadBar.textAlign = egret.HorizontalAlign.CENTER;
         this.loadBar.verticalAlign = egret.VerticalAlign.BOTTOM;
         loadSprite.addChild(this.loadBar);
+    }
+    private getGameConfig(): void{
+        this._gGCMap = new GetGameConfig();
+        this._gGCMap.addEventListener(SceneEvent.GAME_CONFIG_GETED, this.configGameComplate, this);
+    }
+    private configGameComplate(){
+        this._gGCMap.removeEventListener(SceneEvent.GAME_CONFIG_GETED, this.configGameComplate, this);
+        RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
+        RES.loadConfig("resource/skin_"+ Config.interval.skin +".res.json", "resource/");
     }
     /**
      * 单列模式

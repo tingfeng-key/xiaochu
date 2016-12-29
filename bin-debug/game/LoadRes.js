@@ -9,15 +9,14 @@ var LoadRes = (function (_super) {
         this.width = 0;
         this.height = 20;
         this._resGroupCountInit = 1;
-        this._reGroupCountmax = 5;
+        this._reGroupCountmax = 6;
+        this.getGameConfig();
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onResCommon, this);
         RES.loadConfig("resource/common.res.json", "resource/");
     }
     var d = __define,c=LoadRes,p=c.prototype;
     p.onResCommon = function (event) {
         RES.removeEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onResCommon, this);
-        RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
-        RES.loadConfig("resource/skin_" + Config.interval.skin + ".res.json", "resource/");
     };
     p.onConfigComplete = function (event) {
         RES.removeEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
@@ -47,12 +46,12 @@ var LoadRes = (function (_super) {
      * 资源加载完成
      */
     p.onResourceComplate = function () {
-        if (this._resGroupCountInit >= this._reGroupCountmax) {
+        this._resGroupCountInit++;
+        if (this._resGroupCountInit > this._reGroupCountmax) {
             var complateEvent = new SceneEvent(SceneEvent.resourceComplate);
             this.dispatchEvent(complateEvent);
             return;
         }
-        this._resGroupCountInit++;
     };
     /**
      * 进度条
@@ -69,6 +68,15 @@ var LoadRes = (function (_super) {
         this.loadBar.textAlign = egret.HorizontalAlign.CENTER;
         this.loadBar.verticalAlign = egret.VerticalAlign.BOTTOM;
         loadSprite.addChild(this.loadBar);
+    };
+    p.getGameConfig = function () {
+        this._gGCMap = new GetGameConfig();
+        this._gGCMap.addEventListener(SceneEvent.GAME_CONFIG_GETED, this.configGameComplate, this);
+    };
+    p.configGameComplate = function () {
+        this._gGCMap.removeEventListener(SceneEvent.GAME_CONFIG_GETED, this.configGameComplate, this);
+        RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
+        RES.loadConfig("resource/skin_" + Config.interval.skin + ".res.json", "resource/");
     };
     d(LoadRes, "interval"
         ,function () {

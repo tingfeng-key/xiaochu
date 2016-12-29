@@ -16,6 +16,7 @@ class SceneEvent extends egret.Event {
     public static TILE_MOVE:string = '方块移动';
     public static TILE_CHANGE_EFFECT:string = '修改方块效果';
     public static TILE_CHANGE_TYPE:string = '修改方块类型';
+    public static GAME_CONFIG_GETED:string = '获取游戏配置完成';
 
     public constructor(type:string, bubbles:boolean=false, cancelable:boolean=false)
     {

@@ -33,7 +33,6 @@ var Menu = (function (_super) {
         this.gameHeadBtn.y = gameheadBtnY;
         this.addChild(this.gameHeadBtn);
         this.gameHeadBtn.touchEnabled = true;
-        console.log(123);
         this.addTouch();
     };
     /**

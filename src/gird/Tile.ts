@@ -137,8 +137,8 @@ class Tile extends egret.Sprite {
                 }else{
                     //判断是否是跨行选中
                     if(this.isCross(target)){
-                        this.unSelect();
-                        GameManage.interval.status = GameStatus.Start;
+                        //this.unSelect();
+                        //GameManage.interval.status = GameStatus.Start;
                         return ;
                     }
                     this.getEffect(target);
@@ -529,8 +529,6 @@ class Tile extends egret.Sprite {
             removeTile = this.mermgRemoveTile();//移除的数据
         let length = removeTile.length,
             Scorelength = length,
-            endNumber = length - 1,//(length < 2)?0:,//随机产生的炸弹
-            end = removeTile[endNumber],
             bombNumber = RandomUtils.limitInteger(0, length - 2),
             bombRand = removeTile[bombNumber];//随机的对象
         //移除数据为空则直接返回
@@ -555,9 +553,9 @@ class Tile extends egret.Sprite {
         //更新分数
         Score.interval.score = Scorelength;
         //移除的数据归零（默认）
-        console.log(this._selectArr.length);
-        length = this._selectArr.length;//重新赋值
-        console.log(length,this._selectArr.length);
+
+        length = this._selectArr.length;//
+        let end = this._selectArr[length - 1];
         this._removeTile = [];
         //如果选中的长度小于最小效果值，则直接返回
         if(length < Config.MinEffect) return;
@@ -583,7 +581,7 @@ class Tile extends egret.Sprite {
      * @param y
      */
     private createBomb(x: number, y: number){
-        if(Math.random() > this._Config.grade) return ;
+        if(Math.random() < this._Config.grade) return ;
         this._tileList[x][y] = this.create(x, y, -1);
         Bomb.interval.add(x,y);
     }

@@ -5,9 +5,9 @@
 class Config {
     private _hor: number;//横轴
     private _ver: number;//纵轴
-    private _grade: number;//难度
+    public _grade: number;//难度
     private _skin: number;//皮肤
-    private _bombMaxRound: number;//炸弹最大回合数
+    public _bombMaxRound: number;//炸弹最大回合数
     private _reward: any;//奖励相关
     public init(){
         this._grade = 0.5;
@@ -33,6 +33,7 @@ class Config {
      */
     public set reward(val) {
         this._reward = val;
+        console.log(this._reward);
     }
     /** 横向大小 */
     public get hor(): number {
@@ -115,6 +116,9 @@ class Config {
      * s设置皮肤
      * @returns {number}
      */
+    public set skin(val: number) {
+        this._skin = val;
+    }
     public get skin(): number {
         return this._skin;
     }

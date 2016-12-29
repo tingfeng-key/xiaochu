@@ -1,0 +1,188 @@
+{
+	"groups": [
+		{
+			"keys": "baoxiang_png,baoxiang_can_png,baoxianged_png,bg_png,chest_bg_png,gridBg_png,score_bg_png,time_bg_png,time_progress_png,grid_border_left_png,grid_border_right_png,gem_bg_png",
+			"name": "grid"
+		},
+		{
+			"keys": "gem_1_png,gem_1_l_png,gem_1_s_png,gem_2_png,gem_2_l_png,gem_2_s_png,gem_3_png,gem_3_l_png,gem_3_s_png,gem_4_png,gem_4_l_png,gem_4_s_png",
+			"name": "gem"
+		},
+		{
+			"keys": "dx_json,dx_png,lx_json,lx_png,qs_json,qs_png,yx_json,yx_png,zfx_json,zfx_png",
+			"name": "effect"
+		}
+	],
+	"resources": [
+		{
+			"url": "skin/grid_1/baoxiang.png",
+			"type": "image",
+			"name": "baoxiang_png"
+		},
+		{
+			"url": "skin/grid_1/baoxiang_can.png",
+			"type": "image",
+			"name": "baoxiang_can_png"
+		},
+		{
+			"url": "skin/grid_1/baoxianged.png",
+			"type": "image",
+			"name": "baoxianged_png"
+		},
+		{
+			"url": "skin/grid_1/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "skin/grid_1/chest_bg.png",
+			"type": "image",
+			"name": "chest_bg_png"
+		},
+		{
+			"url": "skin/grid_1/gridBg.png",
+			"type": "image",
+			"name": "gridBg_png"
+		},
+		{
+			"url": "skin/grid_1/score_bg.png",
+			"type": "image",
+			"name": "score_bg_png"
+		},
+		{
+			"url": "skin/grid_1/time_bg.png",
+			"type": "image",
+			"name": "time_bg_png"
+		},
+		{
+			"url": "skin/grid_1/time_progress.png",
+			"type": "image",
+			"name": "time_progress_png"
+		},
+		{
+			"url": "skin/gem_1/gem_1.png",
+			"type": "image",
+			"name": "gem_1_png"
+		},
+		{
+			"url": "skin/gem_1/gem_1_l.png",
+			"type": "image",
+			"name": "gem_1_l_png"
+		},
+		{
+			"url": "skin/gem_1/gem_1_s.png",
+			"type": "image",
+			"name": "gem_1_s_png"
+		},
+		{
+			"url": "skin/gem_1/gem_2.png",
+			"type": "image",
+			"name": "gem_2_png"
+		},
+		{
+			"url": "skin/gem_1/gem_2_l.png",
+			"type": "image",
+			"name": "gem_2_l_png"
+		},
+		{
+			"url": "skin/gem_1/gem_2_s.png",
+			"type": "image",
+			"name": "gem_2_s_png"
+		},
+		{
+			"url": "skin/gem_1/gem_3.png",
+			"type": "image",
+			"name": "gem_3_png"
+		},
+		{
+			"url": "skin/gem_1/gem_3_l.png",
+			"type": "image",
+			"name": "gem_3_l_png"
+		},
+		{
+			"url": "skin/gem_1/gem_3_s.png",
+			"type": "image",
+			"name": "gem_3_s_png"
+		},
+		{
+			"url": "skin/gem_1/gem_4.png",
+			"type": "image",
+			"name": "gem_4_png"
+		},
+		{
+			"url": "skin/gem_1/gem_4_l.png",
+			"type": "image",
+			"name": "gem_4_l_png"
+		},
+		{
+			"url": "skin/gem_1/gem_4_s.png",
+			"type": "image",
+			"name": "gem_4_s_png"
+		},
+		{
+			"url": "skin/effect_1/dx.json",
+			"type": "json",
+			"name": "dx_json"
+		},
+		{
+			"url": "skin/effect_1/dx.png",
+			"type": "image",
+			"name": "dx_png"
+		},
+		{
+			"url": "skin/effect_1/lx.json",
+			"type": "json",
+			"name": "lx_json"
+		},
+		{
+			"url": "skin/effect_1/lx.png",
+			"type": "image",
+			"name": "lx_png"
+		},
+		{
+			"url": "skin/effect_1/qs.json",
+			"type": "json",
+			"name": "qs_json"
+		},
+		{
+			"url": "skin/effect_1/qs.png",
+			"type": "image",
+			"name": "qs_png"
+		},
+		{
+			"url": "skin/effect_1/yx.json",
+			"type": "json",
+			"name": "yx_json"
+		},
+		{
+			"url": "skin/effect_1/yx.png",
+			"type": "image",
+			"name": "yx_png"
+		},
+		{
+			"url": "skin/effect_1/zfx.json",
+			"type": "json",
+			"name": "zfx_json"
+		},
+		{
+			"url": "skin/effect_1/zfx.png",
+			"type": "image",
+			"name": "zfx_png"
+		},
+		{
+			"url": "skin/grid_1/grid_border_left.png",
+			"type": "image",
+			"name": "grid_border_left_png"
+		},
+		{
+			"url": "skin/grid_1/grid_border_right.png",
+			"type": "image",
+			"name": "grid_border_right_png"
+		},
+		{
+			"url": "skin/grid_1/gem_bg.png",
+			"type": "image",
+			"name": "gem_bg_png"
+		}
+	]
+}

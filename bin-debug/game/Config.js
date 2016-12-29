@@ -30,6 +30,7 @@ var Config = (function () {
          */
         ,function (val) {
             this._reward = val;
+            console.log(this._reward);
         }
     );
     d(p, "hor"
@@ -124,12 +125,15 @@ var Config = (function () {
         }
     );
     d(p, "skin"
+        ,function () {
+            return this._skin;
+        }
         /**
          * s设置皮肤
          * @returns {number}
          */
-        ,function () {
-            return this._skin;
+        ,function (val) {
+            this._skin = val;
         }
     );
     d(Config, "MaxEffect"

@@ -23,6 +23,7 @@ var SceneEvent = (function (_super) {
     SceneEvent.TILE_MOVE = '方块移动';
     SceneEvent.TILE_CHANGE_EFFECT = '修改方块效果';
     SceneEvent.TILE_CHANGE_TYPE = '修改方块类型';
+    SceneEvent.GAME_CONFIG_GETED = '获取游戏配置完成';
     return SceneEvent;
 }(egret.Event));
 egret.registerClass(SceneEvent,'SceneEvent');

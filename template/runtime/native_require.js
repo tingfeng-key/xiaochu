@@ -12,6 +12,7 @@ var game_file_list = [
 	"bin-debug/game/Config.js",
 	"bin-debug/game/GameManage.js",
 	"bin-debug/game/GameSence.js",
+	"bin-debug/game/GetGameConfig.js",
 	"bin-debug/game/LoadRes.js",
 	"bin-debug/game/Menu.js",
 	"bin-debug/game/Reward.js",

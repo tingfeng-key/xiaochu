@@ -204,6 +204,10 @@ var GameUi;
             //移除当前存在的所有对象
             Grid.interval.removeChildren();
             Grid.interval.init();
+            var rewardMap = Reward.interval;
+            //移除奖励
+            rewardMap._con.removeChildren();
+            GameManage.interval.addSence(rewardMap._con);
         };
         d(GameOver, "interval"
             ,function () {

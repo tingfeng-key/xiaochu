@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce510ce-0b8b-4706-a7e4-e77f13ca0521" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/GetGameConfig.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/game/Config.js" afterPath="$PROJECT_DIR$/bin-debug/game/Config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/game/LoadRes.js" afterPath="$PROJECT_DIR$/bin-debug/game/LoadRes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/game/Menu.js" afterPath="$PROJECT_DIR$/bin-debug/game/Menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/game/SceneEvent.js" afterPath="$PROJECT_DIR$/bin-debug/game/SceneEvent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/gird/GameUI.js" afterPath="$PROJECT_DIR$/bin-debug/gird/GameUI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/gird/Tile.js" afterPath="$PROJECT_DIR$/bin-debug/gird/Tile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/Config.ts" afterPath="$PROJECT_DIR$/src/game/Config.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/LoadRes.ts" afterPath="$PROJECT_DIR$/src/game/LoadRes.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/Menu.ts" afterPath="$PROJECT_DIR$/src/game/Menu.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/SceneEvent.ts" afterPath="$PROJECT_DIR$/src/game/SceneEvent.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gird/GameUI.ts" afterPath="$PROJECT_DIR$/src/gird/GameUI.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gird/Tile.ts" afterPath="$PROJECT_DIR$/src/gird/Tile.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/runtime/native_require.js" afterPath="$PROJECT_DIR$/template/runtime/native_require.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,181 +31,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tile.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gird/Tile.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              <folding>
-                <element signature="n#!!doc;n#initTileList#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#initTileList#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#restartInit#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#restartInit#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#create#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#addTouch#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#addTouch#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#removeTouch#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#removeTouch#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#signToSelect#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#signToSelect#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#signToUnselect#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#isCross#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#isCross#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#deleteSelect#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#deleteSelect#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#pushSelect#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#pushSelect#0;n#Tile#0" expanded="false" />
-                <element signature="e#7206#7249#0" expanded="false" />
-                <element signature="n#!!doc;n#touchEnds#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#unSelect#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#curSelectType#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#curSelectType#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!doc;n#canRemove#0;n#Tile#0" expanded="false" />
-                <element signature="n#!!block;n#getEffect#0;n#Tile#0" expanded="false" />
-                <element signature="e#11785#12241#0" expanded="false" />
-                <element signature="e#12383#12744#0" expanded="false" />
-                <element signature="e#12886#13247#0" expanded="false" />
-                <element signature="e#13390#13751#0" expanded="false" />
-                <element signature="e#13802#14163#0" expanded="false" />
-                <element signature="n#!!block;n#repair#0;n#Tile#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameManage.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/GameManage.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="77" column="36" lean-forward="false" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!block;n#saveGame#0;n#GameManage#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Effect.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gird/Effect.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-              <folding>
-                <element signature="n#!!block;n#move#0;n#Effect#0" expanded="false" />
-                <element signature="n#!!block;n#init#0;n#Effect#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameSence.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/GameSence.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TileBitmap.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gird/TileBitmap.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2584">
-              <caret line="203" column="19" lean-forward="false" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!block;n#constructor#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#unselect#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!block;n#unselect#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#randomType#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!block;n#randomType#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#status#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#status#1;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!block;n#status#1;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#isSelect#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#isSelect#1;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#type#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#type#1;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#effect#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!block;n#effect#0;n#TileBitmap#0" expanded="false" />
-                <element signature="e#2121#2153#0" expanded="false" />
-                <element signature="e#2177#2295#0" expanded="false" />
-                <element signature="e#2299#2476#0" expanded="false" />
-                <element signature="e#2516#2555#0" expanded="false" />
-                <element signature="n#!!doc;n#setEffect#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#getDirection#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#getAnimationType#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#effect#1;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!block;n#effect#1;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#pos#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!block;n#pos#0;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!doc;n#pos#1;n#TileBitmap#0" expanded="false" />
-                <element signature="n#!!block;n#pos#1;n#TileBitmap#0" expanded="false" />
-                <element signature="e#5194#5209#0" expanded="false" />
-                <element signature="e#5295#5310#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/game/Config.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!block;n#hor#0;n#Config#0" expanded="false" />
-                <element signature="n#!!block;n#ver#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#gridH#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#grade#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#gridBgW#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#gridBgH#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#anInterval#0;n#Config#0" expanded="false" />
-                <element signature="n#!!block;n#anInterval#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#removeTime#0;n#Config#0" expanded="false" />
-                <element signature="n#!!block;n#removeTime#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#moveTime#0;n#Config#0" expanded="false" />
-                <element signature="n#!!block;n#moveTime#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#skin#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#MaxEffect#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#MinEffect#0;n#Config#0" expanded="false" />
-                <element signature="n#!!block;n#MinEffect#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#BombRound#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#BombMinRound#0;n#Config#0" expanded="false" />
-                <element signature="n#!!block;n#BombMinRound#0;n#Config#0" expanded="false" />
-                <element signature="n#!!doc;n#timeW#0;n#Config#0" expanded="false" />
-                <element signature="n#!!block;n#timeW#0;n#Config#0" expanded="false" />
-                <element signature="n#!!block;n#getScoreColor#0;n#Config#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Score.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/Score.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-217">
-              <caret line="27" column="65" lean-forward="false" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reward.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/Reward.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-              <folding>
-                <element signature="n#!!block;n#trigger#0;n#Reward#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -224,17 +72,19 @@
         <option value="&lt;b5c595a4-2d82-4ca0-8801-f18ee194dbca&gt;/home/threecard/web/tomcat/webapps/threecard-web/WEB-INF/jsp/main/login.jsp" />
         <option value="$PROJECT_DIR$/src/game/GameSence.ts" />
         <option value="$PROJECT_DIR$/resource/common.res.json" />
-        <option value="$PROJECT_DIR$/src/game/LoadRes.ts" />
         <option value="$PROJECT_DIR$/src/gird/TileBitmap.ts" />
         <option value="$PROJECT_DIR$/src/gird/Grid.ts" />
         <option value="$PROJECT_DIR$/src/gird/Effect.ts" />
-        <option value="$PROJECT_DIR$/src/gird/GameUI.ts" />
-        <option value="$PROJECT_DIR$/src/game/Menu.ts" />
         <option value="$PROJECT_DIR$/src/game/Score.ts" />
         <option value="$PROJECT_DIR$/src/game/Reward.ts" />
         <option value="$PROJECT_DIR$/src/game/GameManage.ts" />
-        <option value="$PROJECT_DIR$/src/gird/Tile.ts" />
+        <option value="$PROJECT_DIR$/src/game/Menu.ts" />
+        <option value="$PROJECT_DIR$/src/game/SceneEvent.ts" />
+        <option value="$PROJECT_DIR$/src/game/GetGameConfig.ts" />
         <option value="$PROJECT_DIR$/src/game/Config.ts" />
+        <option value="$PROJECT_DIR$/src/gird/Tile.ts" />
+        <option value="$PROJECT_DIR$/src/gird/GameUI.ts" />
+        <option value="$PROJECT_DIR$/src/game/LoadRes.ts" />
       </list>
     </option>
   </component>
@@ -267,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -280,16 +131,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaochu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaochu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaochu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaochu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gird" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/learn_work_space/videowz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="F:/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="F:\nodejs\node.exe" />
@@ -716,7 +598,11 @@
       <workItem from="1482109945277" duration="23816000" />
       <workItem from="1482199836742" duration="21319000" />
       <workItem from="1482283443445" duration="7319000" />
-      <workItem from="1482369439521" duration="6505000" />
+      <workItem from="1482369439521" duration="8949000" />
+      <workItem from="1482804640510" duration="288000" />
+      <workItem from="1482913067698" duration="6704000" />
+      <workItem from="1482923862176" duration="34000" />
+      <workItem from="1482975206265" duration="3531000" />
     </task>
     <task id="LOCAL-00001" summary="完成">
       <created>1482396594456</created>
@@ -729,10 +615,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78952000" />
+    <option name="totallyTimeSpent" value="91953000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -743,22 +629,22 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28032786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20491803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2351145" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17251909" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="513" y="58" width="327" height="611" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17709924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="513" y="58" width="327" height="611" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24503817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25267175" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -788,61 +674,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gird/Effect.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="45" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!block;n#move#0;n#Effect#0" expanded="false" />
-            <element signature="n#!!block;n#init#0;n#Effect#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/GameSence.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gird/TileBitmap.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3857">
           <caret line="203" column="19" lean-forward="false" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#constructor#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="e#2121#2153#0" expanded="false" />
-            <element signature="e#2177#2295#0" expanded="false" />
-            <element signature="e#2299#2476#0" expanded="false" />
-            <element signature="e#2516#2555#0" expanded="false" />
-            <element signature="n#!!doc;n#setEffect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getDirection#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getAnimationType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="e#5194#5209#0" expanded="false" />
-            <element signature="e#5295#5310#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,12 +686,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!doc;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#reward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#hor#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#hor#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#ver#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#ver#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#gridW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridW#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridH#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#grade#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#grade#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridBgW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgW#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridBgH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgH#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#anInterval#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#anInterval#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#removeTime#0;n#Config#0" expanded="false" />
@@ -864,15 +711,27 @@
             <element signature="n#!!doc;n#moveTime#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#moveTime#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#1;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#MaxEffect#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#MaxEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#MinEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#MinEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#BombRound#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#BombRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#BombMinRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#BombMinRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#timeW#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#timeW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getScoreColor#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#getScoreColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3319#3580#0" expanded="false" />
+            <element signature="n#!!block;n#getRewardColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3667#3928#0" expanded="false" />
+            <element signature="e#3962#3982#0" expanded="false" />
+            <element signature="n#!!block;n#interval#0;n#Config#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,18 +759,19 @@
             <element signature="n#!!block;n#deleteSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#pushSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#pushSelect#0;n#Tile#0" expanded="false" />
-            <element signature="e#7206#7249#0" expanded="false" />
+            <element signature="e#7210#7253#0" expanded="false" />
             <element signature="n#!!doc;n#touchEnds#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#unSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#curSelectType#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#curSelectType#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#canRemove#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#getEffect#0;n#Tile#0" expanded="false" />
-            <element signature="e#11785#12241#0" expanded="false" />
-            <element signature="e#12383#12744#0" expanded="false" />
-            <element signature="e#12886#13247#0" expanded="false" />
-            <element signature="e#13390#13751#0" expanded="false" />
-            <element signature="e#13802#14163#0" expanded="false" />
+            <element signature="e#11789#12245#0" expanded="false" />
+            <element signature="e#12387#12748#0" expanded="false" />
+            <element signature="e#12890#13251#0" expanded="false" />
+            <element signature="e#13394#13755#0" expanded="false" />
+            <element signature="e#13806#14167#0" expanded="false" />
+            <element signature="e#16829#17396#0" expanded="false" />
             <element signature="n#!!block;n#repair#0;n#Tile#0" expanded="false" />
           </folding>
         </state>
@@ -921,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="80" column="50" lean-forward="false" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,9 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
           <caret line="66" column="11" lean-forward="false" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!block;n#saveGame#0;n#GameManage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!block;n#addTouch#0;n#Menu#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,12 +803,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!doc;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#reward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#hor#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#hor#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#ver#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#ver#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#gridW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridW#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridH#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#grade#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#grade#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridBgW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgW#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridBgH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgH#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#anInterval#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#anInterval#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#removeTime#0;n#Config#0" expanded="false" />
@@ -963,15 +828,27 @@
             <element signature="n#!!doc;n#moveTime#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#moveTime#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#1;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#MaxEffect#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#MaxEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#MinEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#MinEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#BombRound#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#BombRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#BombMinRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#BombMinRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#timeW#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#timeW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getScoreColor#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#getScoreColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3319#3580#0" expanded="false" />
+            <element signature="n#!!block;n#getRewardColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3667#3928#0" expanded="false" />
+            <element signature="e#3962#3982#0" expanded="false" />
+            <element signature="n#!!block;n#interval#0;n#Config#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -980,10 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2242">
           <caret line="143" column="11" lean-forward="false" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!block;n#move#0;n#Effect#0" expanded="false" />
-            <element signature="n#!!block;n#init#0;n#Effect#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,38 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="136" column="31" lean-forward="false" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#constructor#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="e#2121#2153#0" expanded="false" />
-            <element signature="e#2177#2295#0" expanded="false" />
-            <element signature="e#2299#2476#0" expanded="false" />
-            <element signature="e#2516#2555#0" expanded="false" />
-            <element signature="n#!!doc;n#setEffect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getDirection#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getAnimationType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="e#5194#5209#0" expanded="false" />
-            <element signature="e#5295#5310#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,18 +890,19 @@
             <element signature="n#!!block;n#deleteSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#pushSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#pushSelect#0;n#Tile#0" expanded="false" />
-            <element signature="e#7206#7249#0" expanded="false" />
+            <element signature="e#7210#7253#0" expanded="false" />
             <element signature="n#!!doc;n#touchEnds#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#unSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#curSelectType#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#curSelectType#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#canRemove#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#getEffect#0;n#Tile#0" expanded="false" />
-            <element signature="e#11785#12241#0" expanded="false" />
-            <element signature="e#12383#12744#0" expanded="false" />
-            <element signature="e#12886#13247#0" expanded="false" />
-            <element signature="e#13390#13751#0" expanded="false" />
-            <element signature="e#13802#14163#0" expanded="false" />
+            <element signature="e#11789#12245#0" expanded="false" />
+            <element signature="e#12387#12748#0" expanded="false" />
+            <element signature="e#12890#13251#0" expanded="false" />
+            <element signature="e#13394#13755#0" expanded="false" />
+            <element signature="e#13806#14167#0" expanded="false" />
+            <element signature="e#16829#17396#0" expanded="false" />
             <element signature="n#!!block;n#repair#0;n#Tile#0" expanded="false" />
           </folding>
         </state>
@@ -1070,9 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#trigger#0;n#Reward#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,9 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="96" column="25" lean-forward="false" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!block;n#addTouch#0;n#Menu#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,10 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="75" column="4" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!block;n#move#0;n#Effect#0" expanded="false" />
-            <element signature="n#!!block;n#init#0;n#Effect#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,12 +948,24 @@
         <state relative-caret-position="779">
           <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding>
+            <element signature="n#!!doc;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#reward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#hor#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#hor#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#ver#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#ver#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#gridW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridW#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridH#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#grade#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#grade#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridBgW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgW#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridBgH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgH#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#anInterval#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#anInterval#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#removeTime#0;n#Config#0" expanded="false" />
@@ -1130,15 +973,27 @@
             <element signature="n#!!doc;n#moveTime#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#moveTime#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#1;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#MaxEffect#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#MaxEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#MinEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#MinEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#BombRound#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#BombRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#BombMinRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#BombMinRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#timeW#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#timeW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getScoreColor#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#getScoreColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3319#3580#0" expanded="false" />
+            <element signature="n#!!block;n#getRewardColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3667#3928#0" expanded="false" />
+            <element signature="e#3962#3982#0" expanded="false" />
+            <element signature="n#!!block;n#interval#0;n#Config#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1147,7 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="62" column="30" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,38 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#constructor#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="e#2121#2153#0" expanded="false" />
-            <element signature="e#2177#2295#0" expanded="false" />
-            <element signature="e#2299#2476#0" expanded="false" />
-            <element signature="e#2516#2555#0" expanded="false" />
-            <element signature="n#!!doc;n#setEffect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getDirection#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getAnimationType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="e#5194#5209#0" expanded="false" />
-            <element signature="e#5295#5310#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,18 +1035,19 @@
             <element signature="n#!!block;n#deleteSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#pushSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#pushSelect#0;n#Tile#0" expanded="false" />
-            <element signature="e#7206#7249#0" expanded="false" />
+            <element signature="e#7210#7253#0" expanded="false" />
             <element signature="n#!!doc;n#touchEnds#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#unSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#curSelectType#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#curSelectType#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#canRemove#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#getEffect#0;n#Tile#0" expanded="false" />
-            <element signature="e#11785#12241#0" expanded="false" />
-            <element signature="e#12383#12744#0" expanded="false" />
-            <element signature="e#12886#13247#0" expanded="false" />
-            <element signature="e#13390#13751#0" expanded="false" />
-            <element signature="e#13802#14163#0" expanded="false" />
+            <element signature="e#11789#12245#0" expanded="false" />
+            <element signature="e#12387#12748#0" expanded="false" />
+            <element signature="e#12890#13251#0" expanded="false" />
+            <element signature="e#13394#13755#0" expanded="false" />
+            <element signature="e#13806#14167#0" expanded="false" />
+            <element signature="e#16829#17396#0" expanded="false" />
             <element signature="n#!!block;n#repair#0;n#Tile#0" expanded="false" />
           </folding>
         </state>
@@ -1234,9 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#trigger#0;n#Reward#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,9 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="96" column="25" lean-forward="false" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!block;n#addTouch#0;n#Menu#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,10 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="75" column="4" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!block;n#move#0;n#Effect#0" expanded="false" />
-            <element signature="n#!!block;n#init#0;n#Effect#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1281,12 +1093,24 @@
         <state relative-caret-position="779">
           <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding>
+            <element signature="n#!!doc;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#reward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#hor#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#hor#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#ver#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#ver#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#gridW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridW#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridH#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#grade#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#grade#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridBgW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgW#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#gridBgH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgH#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#anInterval#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#anInterval#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#removeTime#0;n#Config#0" expanded="false" />
@@ -1294,15 +1118,27 @@
             <element signature="n#!!doc;n#moveTime#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#moveTime#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#1;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#MaxEffect#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#MaxEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#MinEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#MinEffect#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#BombRound#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#BombRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#BombMinRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#BombMinRound#0;n#Config#0" expanded="false" />
             <element signature="n#!!doc;n#timeW#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#timeW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getScoreColor#0;n#Config#0" expanded="false" />
             <element signature="n#!!block;n#getScoreColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3319#3580#0" expanded="false" />
+            <element signature="n#!!block;n#getRewardColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3667#3928#0" expanded="false" />
+            <element signature="e#3962#3982#0" expanded="false" />
+            <element signature="n#!!block;n#interval#0;n#Config#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1311,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="62" column="30" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,38 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#constructor#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="e#2121#2153#0" expanded="false" />
-            <element signature="e#2177#2295#0" expanded="false" />
-            <element signature="e#2299#2476#0" expanded="false" />
-            <element signature="e#2516#2555#0" expanded="false" />
-            <element signature="n#!!doc;n#setEffect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getDirection#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getAnimationType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="e#5194#5209#0" expanded="false" />
-            <element signature="e#5295#5310#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1359,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="80" column="50" lean-forward="false" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,70 +1175,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/LoadRes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/learn_work_space/think5/sftp-config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gird/TileBitmap.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="203" column="19" lean-forward="false" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#constructor#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#unselect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#randomType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#status#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#isSelect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#type#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="e#2121#2153#0" expanded="false" />
-            <element signature="e#2177#2295#0" expanded="false" />
-            <element signature="e#2299#2476#0" expanded="false" />
-            <element signature="e#2516#2555#0" expanded="false" />
-            <element signature="n#!!doc;n#setEffect#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getDirection#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#getAnimationType#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#effect#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#0;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!doc;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="n#!!block;n#pos#1;n#TileBitmap#0" expanded="false" />
-            <element signature="e#5194#5209#0" expanded="false" />
-            <element signature="e#5295#5310#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gird/Effect.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!block;n#move#0;n#Effect#0" expanded="false" />
-            <element signature="n#!!block;n#init#0;n#Effect#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/learn_work_space/think5/sftp-config.json" />
     <entry file="file://$PROJECT_DIR$/resource/common.res.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -1448,15 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gird/GameUI.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3344">
-          <caret line="176" column="28" lean-forward="false" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,60 +1194,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/GameSence.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/Menu.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="117" column="40" lean-forward="false" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!block;n#addTouch#0;n#Menu#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Score.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
+        <state relative-caret-position="513">
           <caret line="27" column="65" lean-forward="false" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Reward.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="1121">
           <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Desktop/player/ykyun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="129" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gird/TileBitmap.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="203" column="19" lean-forward="false" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GameSence.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gird/Effect.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/SceneEvent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
-            <element signature="n#!!block;n#trigger#0;n#Reward#0" expanded="false" />
+            <element signature="n#!!doc;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#reward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#hor#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#hor#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#ver#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#ver#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#tileSize#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#gridW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#gridH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#grade#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#grade#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#gridBgW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#gridBgH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#gridBgH#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#anInterval#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#anInterval#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#removeTime#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#removeTime#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#moveTime#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#moveTime#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#skin#1;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#MaxEffect#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#MaxEffect#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#MinEffect#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#MinEffect#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#BombRound#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#BombRound#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#BombMinRound#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#BombMinRound#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#timeW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#timeW#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#getReward#0;n#Config#0" expanded="false" />
+            <element signature="n#!!doc;n#getScoreColor#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#getScoreColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3319#3580#0" expanded="false" />
+            <element signature="n#!!block;n#getRewardColor#0;n#Config#0" expanded="false" />
+            <element signature="e#3667#3928#0" expanded="false" />
+            <element signature="e#3962#3982#0" expanded="false" />
+            <element signature="n#!!block;n#interval#0;n#Config#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/GameManage.ts">
+    <entry file="file://$PROJECT_DIR$/src/game/GetGameConfig.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="77" column="36" lean-forward="false" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        <state relative-caret-position="344">
+          <caret line="26" column="76" lean-forward="false" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
           <folding>
-            <element signature="n#!!block;n#saveGame#0;n#GameManage#0" expanded="false" />
+            <element signature="n#!!doc;n#GetGameConfig#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/LoadRes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc;n#LoadRes#0" expanded="false" />
+            <element signature="n#!!block;n#onResCommon#0;n#LoadRes#0" expanded="false" />
+            <element signature="n#!!block;n#onConfigComplete#0;n#LoadRes#0" expanded="false" />
+            <element signature="n#!!doc;n#onResourceProgress#0;n#LoadRes#0" expanded="false" />
+            <element signature="n#!!block;n#onResourceProgress#0;n#LoadRes#0" expanded="false" />
+            <element signature="n#!!block;n#onError#0;n#LoadRes#0" expanded="false" />
+            <element signature="n#!!doc;n#onResourceComplate#0;n#LoadRes#0" expanded="false" />
+            <element signature="e#1975#1999#0" expanded="false" />
+            <element signature="n#!!doc;n#progressStart#0;n#LoadRes#0" expanded="false" />
+            <element signature="n#!!block;n#progressStart#0;n#LoadRes#0" expanded="false" />
+            <element signature="e#3149#3172#0" expanded="false" />
+            <element signature="n#!!block;n#interval#0;n#LoadRes#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gird/Tile.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="256">
+          <caret line="568" column="9" lean-forward="false" selection-start-line="568" selection-start-column="9" selection-end-line="568" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc;n#initTileList#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#initTileList#0;n#Tile#0" expanded="false" />
@@ -1537,58 +1355,50 @@
             <element signature="n#!!block;n#deleteSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#pushSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#pushSelect#0;n#Tile#0" expanded="false" />
-            <element signature="e#7206#7249#0" expanded="false" />
+            <element signature="e#7210#7253#0" expanded="false" />
             <element signature="n#!!doc;n#touchEnds#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#unSelect#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#curSelectType#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#curSelectType#0;n#Tile#0" expanded="false" />
             <element signature="n#!!doc;n#canRemove#0;n#Tile#0" expanded="false" />
             <element signature="n#!!block;n#getEffect#0;n#Tile#0" expanded="false" />
-            <element signature="e#11785#12241#0" expanded="false" />
-            <element signature="e#12383#12744#0" expanded="false" />
-            <element signature="e#12886#13247#0" expanded="false" />
-            <element signature="e#13390#13751#0" expanded="false" />
-            <element signature="e#13802#14163#0" expanded="false" />
+            <element signature="e#11789#12245#0" expanded="false" />
+            <element signature="e#12387#12748#0" expanded="false" />
+            <element signature="e#12890#13251#0" expanded="false" />
+            <element signature="e#13394#13755#0" expanded="false" />
+            <element signature="e#13806#14167#0" expanded="false" />
+            <element signature="e#16829#17396#0" expanded="false" />
             <element signature="n#!!block;n#repair#0;n#Tile#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/Desktop/player/ykyun.js">
+    <entry file="file://$PROJECT_DIR$/src/game/Menu.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="129" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="129" />
+        <state relative-caret-position="146">
+          <caret line="115" column="8" lean-forward="false" selection-start-line="115" selection-start-column="8" selection-end-line="117" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!block;n#init#0;n#Menu#0" expanded="false" />
+            <element signature="n#!!block;n#addTouch#0;n#Menu#0" expanded="false" />
+            <element signature="n#!!block;n#removaAllBtnListen#0;n#Menu#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gird/GameUI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="212" column="18" lean-forward="false" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/Config.ts">
+    <entry file="file://$PROJECT_DIR$/src/game/GameManage.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="146">
+          <caret line="169" column="29" lean-forward="false" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="29" />
           <folding>
-            <element signature="n#!!block;n#hor#0;n#Config#0" expanded="false" />
-            <element signature="n#!!block;n#ver#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#gridH#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#grade#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#gridBgW#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#gridBgH#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#anInterval#0;n#Config#0" expanded="false" />
-            <element signature="n#!!block;n#anInterval#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#removeTime#0;n#Config#0" expanded="false" />
-            <element signature="n#!!block;n#removeTime#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#moveTime#0;n#Config#0" expanded="false" />
-            <element signature="n#!!block;n#moveTime#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#skin#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#MaxEffect#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#MinEffect#0;n#Config#0" expanded="false" />
-            <element signature="n#!!block;n#MinEffect#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#BombRound#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#BombMinRound#0;n#Config#0" expanded="false" />
-            <element signature="n#!!block;n#BombMinRound#0;n#Config#0" expanded="false" />
-            <element signature="n#!!doc;n#timeW#0;n#Config#0" expanded="false" />
-            <element signature="n#!!block;n#timeW#0;n#Config#0" expanded="false" />
-            <element signature="n#!!block;n#getScoreColor#0;n#Config#0" expanded="false" />
+            <element signature="n#!!block;n#update#0;n#GameManage#0" expanded="false" />
           </folding>
         </state>
       </provider>

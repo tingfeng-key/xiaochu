@@ -1,0 +1,183 @@
+{
+	"groups": [
+		{
+			"keys": "baoxiang_png,bg_png,chest_bg_png,gridBg_png,score_bg_png,time_bg_png,time_progress_png,grid_border_left_png,grid_border_right_png,baoxiang_can_png,baoxianged_png",
+			"name": "grid"
+		},
+		{
+			"keys": "gem_1_png,gem_1_l_png,gem_1_s_png,gem_2_png,gem_2_l_png,gem_2_s_png,gem_3_png,gem_3_l_png,gem_3_s_png,gem_4_png,gem_4_l_png,gem_4_s_png",
+			"name": "gem"
+		},
+		{
+			"keys": "dx_json,dx_png,lx_json,lx_png,qs_json,qs_png,yx_json,yx_png,zfx_json,zfx_png",
+			"name": "effect"
+		}
+	],
+	"resources": [
+		{
+			"url": "skin/grid_2/baoxiang.png",
+			"type": "image",
+			"name": "baoxiang_png"
+		},
+		{
+			"url": "skin/grid_2/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "skin/grid_2/chest_bg.png",
+			"type": "image",
+			"name": "chest_bg_png"
+		},
+		{
+			"url": "skin/grid_2/gridBg.png",
+			"type": "image",
+			"name": "gridBg_png"
+		},
+		{
+			"url": "skin/grid_2/score_bg.png",
+			"type": "image",
+			"name": "score_bg_png"
+		},
+		{
+			"url": "skin/grid_2/time_bg.png",
+			"type": "image",
+			"name": "time_bg_png"
+		},
+		{
+			"url": "skin/grid_2/time_progress.png",
+			"type": "image",
+			"name": "time_progress_png"
+		},
+		{
+			"url": "skin/gem_2/gem_1.png",
+			"type": "image",
+			"name": "gem_1_png"
+		},
+		{
+			"url": "skin/gem_2/gem_1_s.png",
+			"type": "image",
+			"name": "gem_1_s_png"
+		},
+		{
+			"url": "skin/gem_2/gem_1_l.png",
+			"type": "image",
+			"name": "gem_1_l_png"
+		},
+		{
+			"url": "skin/gem_2/gem_2.png",
+			"type": "image",
+			"name": "gem_2_png"
+		},
+		{
+			"url": "skin/gem_2/gem_2_l.png",
+			"type": "image",
+			"name": "gem_2_l_png"
+		},
+		{
+			"url": "skin/gem_2/gem_2_s.png",
+			"type": "image",
+			"name": "gem_2_s_png"
+		},
+		{
+			"url": "skin/gem_2/gem_3.png",
+			"type": "image",
+			"name": "gem_3_png"
+		},
+		{
+			"url": "skin/gem_2/gem_3_l.png",
+			"type": "image",
+			"name": "gem_3_l_png"
+		},
+		{
+			"url": "skin/gem_2/gem_3_s.png",
+			"type": "image",
+			"name": "gem_3_s_png"
+		},
+		{
+			"url": "skin/gem_2/gem_4.png",
+			"type": "image",
+			"name": "gem_4_png"
+		},
+		{
+			"url": "skin/gem_2/gem_4_l.png",
+			"type": "image",
+			"name": "gem_4_l_png"
+		},
+		{
+			"url": "skin/gem_2/gem_4_s.png",
+			"type": "image",
+			"name": "gem_4_s_png"
+		},
+		{
+			"url": "skin/effect_2/dx.json",
+			"type": "json",
+			"name": "dx_json"
+		},
+		{
+			"url": "skin/effect_2/dx.png",
+			"type": "image",
+			"name": "dx_png"
+		},
+		{
+			"url": "skin/effect_2/lx.json",
+			"type": "json",
+			"name": "lx_json"
+		},
+		{
+			"url": "skin/effect_2/lx.png",
+			"type": "image",
+			"name": "lx_png"
+		},
+		{
+			"url": "skin/effect_2/qs.json",
+			"type": "json",
+			"name": "qs_json"
+		},
+		{
+			"url": "skin/effect_2/qs.png",
+			"type": "image",
+			"name": "qs_png"
+		},
+		{
+			"url": "skin/effect_2/yx.json",
+			"type": "json",
+			"name": "yx_json"
+		},
+		{
+			"url": "skin/effect_2/yx.png",
+			"type": "image",
+			"name": "yx_png"
+		},
+		{
+			"url": "skin/effect_2/zfx.json",
+			"type": "json",
+			"name": "zfx_json"
+		},
+		{
+			"url": "skin/effect_2/zfx.png",
+			"type": "image",
+			"name": "zfx_png"
+		},
+		{
+			"url": "skin/grid_2/grid_border_left.png",
+			"type": "image",
+			"name": "grid_border_left_png"
+		},
+		{
+			"url": "skin/grid_2/grid_border_right.png",
+			"type": "image",
+			"name": "grid_border_right_png"
+		},
+		{
+			"url": "skin/grid_2/baoxiang_can.png",
+			"type": "image",
+			"name": "baoxiang_can_png"
+		},
+		{
+			"url": "skin/grid_2/baoxianged.png",
+			"type": "image",
+			"name": "baoxianged_png"
+		}
+	]
+}

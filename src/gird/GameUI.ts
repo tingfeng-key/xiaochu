@@ -209,6 +209,10 @@ module GameUi {
             //移除当前存在的所有对象
             Grid.interval.removeChildren();
             Grid.interval.init();
+            let rewardMap = Reward.interval;
+            //移除奖励
+            rewardMap._con.removeChildren();
+            GameManage.interval.addSence(rewardMap._con);
         }
         /**
         *单列模式
